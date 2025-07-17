@@ -1,5 +1,5 @@
 {
-  "name": "my-stencil",
+  "name": "@marockiaagnel/my-stencil",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
@@ -37,6 +37,9 @@
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
     "@stencil/core": "^4.27.1",
